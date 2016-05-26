@@ -5,7 +5,7 @@ function squareSum(n){
     var i = 1;
     
     while(i <= n){
-        sum = sum + i;
+        sum = sum + i * i;
         i = i + 1; 
     }
     return sum;

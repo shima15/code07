@@ -4,8 +4,9 @@ function squareSum(n){
     var sum = 0;
     var i = 1;
     
-    while(i <= n){
-        sum = sum + i * i; 
+    while(n > 0){
+        sum = sum + n;
+        n = n + 1; 
     }
     return sum;
 }
